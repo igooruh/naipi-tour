@@ -1,0 +1,7 @@
+{
+  "name": "naipi-tour",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
