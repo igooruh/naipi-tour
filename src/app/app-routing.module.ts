@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'foz-iguacu',
     loadChildren: () => import('./pages/foz-iguacu/foz-iguacu.module').then( m => m.FozIguacuPageModule)
   },
+  {
+    path: 'turismo-foz',
+    loadChildren: () => import('./pages/turismo-foz/turismo-foz.module').then( m => m.TurismoFozPageModule)
+  },
 ];
 
 @NgModule({
