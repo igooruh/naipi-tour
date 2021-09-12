@@ -43,6 +43,11 @@ const routes: Routes = [
     path: 'saltos-monday',
     loadChildren: () => import('./pages/saltos-monday/saltos-monday.module').then( m => m.SaltosMondayPageModule)
   },
+  {
+    path: 'gastronomia-ciudad-leste',
+    loadChildren: () => import('./pages/gastronomia-ciudad-leste/gastronomia-ciudad-leste.module')
+    .then( m => m.GastronomiaCiudadLestePageModule)
+  },
 ];
 
 @NgModule({
