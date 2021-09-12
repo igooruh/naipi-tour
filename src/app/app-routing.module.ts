@@ -48,6 +48,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/gastronomia-ciudad-leste/gastronomia-ciudad-leste.module')
     .then( m => m.GastronomiaCiudadLestePageModule)
   },
+  {
+    path: 'resto-bar',
+    loadChildren: () => import('./pages/resto-bar/resto-bar.module').then( m => m.RestoBarPageModule)
+  },
 ];
 
 @NgModule({
