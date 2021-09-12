@@ -15,3 +15,9 @@ Install Node and NPM
   Command runner project
 
     ionic serve
+
+## Runner Project with iphone
+
+  Build project platform ios
+
+    ionic capacitor build ios
