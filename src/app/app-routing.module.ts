@@ -56,6 +56,10 @@ const routes: Routes = [
     path: 'puerto-iguazu',
     loadChildren: () => import('./pages/puerto-iguazu/puerto-iguazu.module').then( m => m.PuertoIguazuPageModule)
   },
+  {
+    path: 'turismo-puerto-iguazu',
+    loadChildren: () => import('./pages/turismo-puerto-iguazu/turismo-puerto-iguazu.module').then( m => m.TurismoPuertoIguazuPageModule)
+  },
 ];
 
 @NgModule({
