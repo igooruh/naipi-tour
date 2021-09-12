@@ -64,6 +64,11 @@ const routes: Routes = [
     path: 'aripuca',
     loadChildren: () => import('./pages/aripuca/aripuca.module').then( m => m.AripucaPageModule)
   },
+  {
+    path: 'gastronomia-puerto-iguazu',
+    loadChildren: () => import('./pages/gastronomia-puerto-iguazu/gastronomia-puerto-iguazu.module')
+    .then( m => m.GastronomiaPuertoIguazuPageModule)
+  },
 ];
 
 @NgModule({
