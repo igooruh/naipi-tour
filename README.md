@@ -8,10 +8,9 @@ Install Node and NPM
 
 ## Runner this project
 
+  Command going to install all dependencies project
     npm i
 
-  Command going to install all dependencies project
+  Command runner project
 
     ionic serve
-
-  Command runner project
