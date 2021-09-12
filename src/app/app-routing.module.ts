@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'raffain',
     loadChildren: () => import('./pages/raffain/raffain.module').then( m => m.RaffainPageModule)
   },
+  {
+    path: 'ciudad-del-leste',
+    loadChildren: () => import('./pages/ciudad-del-leste/ciudad-del-leste.module').then( m => m.CiudadDelLestePageModule)
+  },
 ];
 
 @NgModule({
