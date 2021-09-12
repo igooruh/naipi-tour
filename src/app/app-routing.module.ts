@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'ciudad-del-leste',
     loadChildren: () => import('./pages/ciudad-del-leste/ciudad-del-leste.module').then( m => m.CiudadDelLestePageModule)
   },
+  {
+    path: 'turismo-ciudad-leste',
+    loadChildren: () => import('./pages/turismo-ciudad-leste/turismo-ciudad-leste.module').then( m => m.TurismoCiudadLestePageModule)
+  },
 ];
 
 @NgModule({
