@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'cataratas',
     loadChildren: () => import('./pages/cataratas/cataratas.module').then( m => m.CataratasPageModule)
   },
+  {
+    path: 'gastronomia-foz',
+    loadChildren: () => import('./pages/gastronomia-foz/gastronomia-foz.module').then( m => m.GastronomiaFozPageModule)
+  },
 ];
 
 @NgModule({
