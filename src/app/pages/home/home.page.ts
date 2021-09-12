@@ -22,6 +22,6 @@ export class HomePage implements OnInit {
   }
 
   puertoIguazu() {
-    this.route.navigate(['puerto-ciudad']);
+    this.route.navigate(['puerto-iguazu']);
   }
 }
