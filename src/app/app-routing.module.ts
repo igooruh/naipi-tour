@@ -52,6 +52,10 @@ const routes: Routes = [
     path: 'resto-bar',
     loadChildren: () => import('./pages/resto-bar/resto-bar.module').then( m => m.RestoBarPageModule)
   },
+  {
+    path: 'puerto-iguazu',
+    loadChildren: () => import('./pages/puerto-iguazu/puerto-iguazu.module').then( m => m.PuertoIguazuPageModule)
+  },
 ];
 
 @NgModule({
