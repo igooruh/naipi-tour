@@ -69,6 +69,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/gastronomia-puerto-iguazu/gastronomia-puerto-iguazu.module')
     .then( m => m.GastronomiaPuertoIguazuPageModule)
   },
+  {
+    path: 'quincho-tio-querido',
+    loadChildren: () => import('./pages/quincho-tio-querido/quincho-tio-querido.module').then( m => m.QuinchoTioQueridoPageModule)
+  },
 ];
 
 @NgModule({
