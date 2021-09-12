@@ -1,0 +1,25 @@
+<ion-header class="header-container">
+  <ion-title class="text-header">Ciudad del Leste</ion-title>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar class="container">
+    <img class="size-img" src="../../../assets/image/ciudad-del-leste.svg"
+      alt="Logo" />
+  </ion-toolbar>
+
+  <ion-grid class="container">
+    <div class="space-button font">
+      <ion-button class="button-home" color="danger" (click)="turismoCiudadLeste()">
+        Pontos Turísticos
+      </ion-button>
+      <ion-button class="button-home" color="danger" (click)="gastronomiaCiudadLeste()">
+        Gastronomia
+      </ion-button>
+    </div>
+  </ion-grid>
+
+  <div class="link-nav">
+    <ion-nav-link (click)="backPage()">Voltar</ion-nav-link>
+  </div>
+</ion-content>
