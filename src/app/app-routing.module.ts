@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'gastronomia-foz',
     loadChildren: () => import('./pages/gastronomia-foz/gastronomia-foz.module').then( m => m.GastronomiaFozPageModule)
   },
+  {
+    path: 'raffain',
+    loadChildren: () => import('./pages/raffain/raffain.module').then( m => m.RaffainPageModule)
+  },
 ];
 
 @NgModule({
