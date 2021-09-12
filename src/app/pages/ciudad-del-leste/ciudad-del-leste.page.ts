@@ -16,4 +16,12 @@ export class CiudadDelLestePage implements OnInit {
   backPage() {
     this.route.navigate(['home']);
   }
+
+  turismoCiudadLeste() {
+    this.route.navigate(['turismo-ciudad-leste']);
+  }
+
+  gastronomiaCiudadLeste() {
+    this.route.navigate(['gastronomia-ciudad-leste']);
+  }
 }
